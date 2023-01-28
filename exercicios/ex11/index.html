@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>midias em html</title>
+</head>
+<body>
+    <h1>imagens dinamicas</h1>
+    <p>tente abrir esse site em varios dispositivos diferentes ou 
+        aumentando e diminuindo o tamanho do navegador
+    </p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/fotop_.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/fotom_.png" type="image/png">
+        <img src="imagens/fotoG_.png" alt="imagem flexivel">
+    </picture>
+   <h1>vamos aprender a inserir audio na nossa pagina</h1>
+    <audio src="musicas/JingleBells.mp3" controls></audio>
+<p>c<a href="musicas/JingleBells.mp3">lique aqui para baixar a musica</a></p>
+<h1>videos</h1>
+<p>inserindo videos hospedado localmento proprio servidor</p>
+
+<video width="200"  controls loop>
+    <source src="videos/videohd-cafe.mp4" type="video/mp4">
+    <source src="videos/videohd-cafe 2.mp4" type="video/mp4">
+    <source src="videos/videohd-cafe.webm" type="video/webm">
+    <p>caso seu navegador não abra o video vc n tem contabilidade</p>
+</video>
+
+<h1>inserindo videos do youtube</h1>
+<iframe width="350" height="220" src="https://www.youtube.com/embed/MJB737W1tUM" 
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+allowfullscreen></iframe><br>
+<h1>video do vimeo</h1>
+
+<iframe src="https://player.vimeo.com/video/785074335?h=7f6fc36d13&title=0&byline=0&portrait=0&badge=0" 
+width="350" height="220" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" 
+allowfullscreen></iframe>
+<p>
+
+</video>
+</body>
+</html>
