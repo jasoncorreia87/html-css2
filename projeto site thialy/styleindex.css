@@ -1,0 +1,122 @@
+@charset "utf-8";
+@font-face {
+    font-family: font01;
+    src: url(font/cocogoose_classic/Cocogoose-Classic-Medium-trial.ttf);
+}
+@font-face {
+    font-family: font02;
+    src: url(font/ModernSans-Light.otf);
+}
+nav{
+    padding-top: 30px;
+    text-align: right;
+    max-width: 600x;
+    background-color: #efe3df;
+}
+nav > a {
+    font-family: font02;
+    font-size: 1.3em;
+    font-weight: bolder;
+    text-decoration: none;
+    color: rgb(145, 145, 145);
+    padding: 50px;
+}
+header>h1{
+    padding-top: 150px;
+    font-family: font02;
+    font-size: 3em;
+    color: rgb(64, 64, 64);
+
+}
+header>h2{
+    font-family: font02;
+    color: rgb(64, 64, 64);
+    line-height: 35px;
+}
+header>p{
+    font-family: font02;
+    text-align: justify;
+    line-height: 30px;
+    width: 435px;
+}
+body{
+    
+        background-color: #efe3df;
+        
+        max-width: 1400px;
+        min-width: 350px;
+        margin: auto;
+        padding: 30px;
+    }
+
+    main{
+        margin: auto;
+        background-color: #f2cec9;
+        width: 600px;
+        height: 500px;
+        padding: 30px;
+        border-radius: 20px;
+        border-style: solid;
+        border-color: rgba(255, 255, 255, 0.725);
+        box-shadow: 10px 33px 22px 6px rgb(0 0 0 / 15%);
+        
+    }
+    #conteudo{
+        position: absolute;
+        margin: auto;
+        right: 100px;
+        top: 250px;
+    }
+    main>h1{
+        font-family: font02;
+        color: rgb(64, 64, 64);
+        font-size: 30px;
+        padding-bottom: 15px;
+    }
+    main>h2{
+        font-family: font02;
+        color: rgb(64, 64, 64);
+        font-size: 20px;
+    }
+    main>p{
+        font-family: font02;
+        color: rgb(64, 64, 64);
+        width: 200px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        line-height: 20px;
+    }
+
+    .link#terapia{
+        position: absolute;
+        margin-top: 70px;
+        font-family: font02;
+        font-weight: bold;
+        text-align: center;
+        border-radius: 50px;
+        width: 250px;
+        height: 70px;
+        background-color: #f2cec9;
+    }
+    .link#ig{
+        position: absolute;
+        margin-top: 200px;
+        font-family: font02;
+        font-weight: bold;
+        text-align: center;
+        border-radius: 50px;
+        width: 250px;
+        height: 70px;
+        background-color: #f2cec9;
+
+    }
+    footer{
+     
+       font-family: font01;
+       color: rgb(122, 122, 122);
+            margin-top: 400px;
+            text-align: right;
+            
+        
+    }
+   
