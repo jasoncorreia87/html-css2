@@ -46,45 +46,46 @@ body{
         max-width: 1400px;
         min-width: 350px;
         margin: auto;
-        padding: 30px;
+        padding: 50px;
     }
 
     main{
         margin: auto;
         background-color: #f2cec9;
-        width: 600px;
-        height: 500px;
+        width: 550px;
+        height: 400px;
         padding: 30px;
         border-radius: 20px;
         border-style: solid;
         border-color: rgba(255, 255, 255, 0.725);
-        box-shadow: 10px 33px 22px 6px rgb(0 0 0 / 15%);
+        box-shadow: 10px 10px 10px 6px rgba(0, 0, 0, 0.059);
         
     }
     #conteudo{
         position: absolute;
         margin: auto;
         right: 100px;
-        top: 250px;
+        top: 350px;
     }
     main>h1{
         font-family: font02;
         color: rgb(64, 64, 64);
-        font-size: 30px;
+        font-size: 25px;
         padding-bottom: 15px;
     }
     main>h2{
         font-family: font02;
         color: rgb(64, 64, 64);
-        font-size: 20px;
+        font-size: 15px;
     }
     main>p{
         font-family: font02;
         color: rgb(64, 64, 64);
+        font-size: 0.9em;
         width: 200px;
         padding-top: 5px;
         padding-bottom: 10px;
-        line-height: 20px;
+        line-height: 15px;
     }
 
     .link#terapia{
