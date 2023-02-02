@@ -7,11 +7,13 @@
     font-family: font02;
     src: url(font/ModernSans-Light.otf);
 }
+
+
 nav{
-    padding-top: 30px;
+    padding-top: 0px;
     text-align: right;
-    max-width: 600x;
-    background-color: #efe3df;
+    min-width: 150px;
+    
 }
 nav > a {
     font-family: font02;
@@ -19,12 +21,18 @@ nav > a {
     font-weight: bolder;
     text-decoration: none;
     color: rgb(145, 145, 145);
-    padding: 50px;
+    padding: 22px;
+    transition-duration: .8s;
+    border-radius: 50px;
+}
+nav > a:hover {
+    background-color: #f2cec9;
+    color: rgb(145, 145, 145);
 }
 header>h1{
     padding-top: 150px;
     font-family: font02;
-    font-size: 3em;
+    font-size: 2.5em;
     color: rgb(64, 64, 64);
 
 }
@@ -32,21 +40,26 @@ header>h2{
     font-family: font02;
     color: rgb(64, 64, 64);
     line-height: 35px;
+    font-size: 1.3em;
+    
 }
 header>p{
     font-family: font02;
     text-align: justify;
     line-height: 30px;
-    width: 435px;
+    width: 400px;
+    padding-top: 30px;
 }
 body{
     
-        background-color: #efe3df;
+        background-image: url(img/4918431.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
         
         max-width: 1400px;
         min-width: 350px;
         margin: auto;
-        padding: 50px;
+        padding: 100px;
     }
 
     main{
@@ -98,6 +111,7 @@ body{
         width: 250px;
         height: 70px;
         background-color: #f2cec9;
+        box-shadow: 4px 4px 15px 0px rgba(0, 0, 0, 0.259);
     }
     .link#ig{
         position: absolute;
@@ -109,6 +123,7 @@ body{
         width: 250px;
         height: 70px;
         background-color: #f2cec9;
+        box-shadow: 4px 4px 15px 0px rgba(0, 0, 0, 0.259);
 
     }
     footer{
