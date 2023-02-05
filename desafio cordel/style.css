@@ -102,5 +102,6 @@ footer{
     background-color: black;
     color: white;
     text-align: center;
+    font-size: .5em;
     padding: 10px;
 }
