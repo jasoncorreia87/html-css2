@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu primeiro formulario</h1>
+
+    <form action="cadastro.php" method="post" autocomplete="off">
+        <p><label for="inome">Nome:</label> 
+            <input type="text" name="nome" id="inome"></p>
+        <p><label for="isobrenome">Sobrenome:</label> 
+            <input type="text" name="sobrenome" id="isobrenome"></p>
+        <input type="submit" value="enviar">
+    </form>
+
+    <h1>formulario com usuario e senha</h1>
+
+    <form action="cadastro.php" method="post">
+        <p><label for="iusu">Usuario:</label>
+            <input type="text" name="usu" id="iusu" required minlength="8" maxlength="12" size="12" placeholder="email"></p>
+
+        <p><label for="isenha">Senha:</label>
+            <input type="password" name="senha" id="isenha" required minlength="4" maxlength="6" size="6" placeholder="senha"></p>
+            <p><input type="submit" value="enviar">
+            <input type="reset" value="limpar"></p>
+
+            <h1>teste de formulario</h1>
+
+            <p><label for="inome">nome:</label>
+            <input type="text" name="nome" id="inome" required maxlength="30" placeholder="nome completo" autocomplete="name" required></p>
+
+            <p><label for="imedia">média:</label>
+            <input type="number" name="media" id="imedia" min="0" max="10" placeholder="0 a 10" step="0.1" value="5" required></p>
+
+            <p><label for="imes">periodo letivo</label>
+            <input type="month" name="mes" id="imes" value="2020-07"></p>
+
+            <p><label for="idia">dia da prova</label><input type="date" name="data" id="idia" value="2020-07-12"></p>
+
+            <p><label for="ihora">horario da prova</label><input type="time" name="hora" id="ihora"></p>
+            <p><input type="submit" value="enviar">
+                <input type="reset" value="limpar"></p>
+
+
+    </form>
+</body>
+</html>
