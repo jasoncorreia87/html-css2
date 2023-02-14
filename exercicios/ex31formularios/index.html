@@ -50,6 +50,58 @@
             <p><input type="submit" value="enviar">
                 <input type="reset" value="limpar"></p>
 
+                <h1>formulario email e telefone</h1>
+                <fieldset>
+                    <legend>dados pessoais</legend>
+                    <p>
+                        <label for="inome">nome:</label>
+                        <input type="text" name="nome" id="inome" minlength="5" maxlength="10" required>
+                    </p>
+                    <p>
+                        <label for="iemail">e-mail</label>
+                        <input type="email" name="email" id="iemail" autocomplete="email" required>
+                    </p>
+                    <p>
+                        <label for="itel">telefone</label>
+                        <input type="tel" name="tel" id="itel" pattern="ˆ\(\d{2}\)\d{4,5}-\d{4}$" required placeholder="(xx) xxxx.xxxx">
+                    </p>
+                </fieldset>
+
+                <h1>checkbox e radio button</h1>
+
+                <fieldset>
+                    <legend>sexo</legend>
+                    <input type="radio" name="sexo" id="imas" value="M"> <label for="imas">masculino</label><br>
+                    <input type="radio" name="sexo" id="ifem" value="F"> <label for="ifem">feminino</label>
+                </fieldset>
+                <fieldset>
+                    <legend>esportes favoritos</legend>
+                    <input type="checkbox" name="esbas" id="iesbas" ><label for="iesbas">basquete</label><br>
+                    <input type="checkbox" name="esfut" id="ifut" checked><label for="ifut">futebol</label><br>
+                    <input type="checkbox" name="esten" id="iten" ><label for="iten">tenis</label><br>
+                    <input type="checkbox" name="esvol" id="ivol" ><label for="ivol">volei</label><br>
+                    <input type="checkbox" name="esmma" id="imma"><label for="imma">mma</label><br>
+                </fieldset>
+                <p><input type="submit" value="enviar">
+                    <input type="reset" value="limpar"></p>
+
+                    <h1>elemento cor, range e file em html</h1>
+                    <fieldset>
+                        <legend>escolhas</legend>
+                        <p><label for="icor">cores</label>
+                        <input type="color" name="cor" id="icor"></p>
+
+                        <p><label for="inivel">nivel de satisfacao</label>
+                        <input type="range" name="nivel" id="inivel"></p>
+
+                        <p><label for="ifoto">foto de perfil</label>
+                        <input type="file" name="foto" id="ifoto"></p>
+                        <p><input type="submit" value="enviar">
+                            <input type="reset" value="limpar"></p>
+
+                    </fieldset>
+                    
+
 
     </form>
 </body>
