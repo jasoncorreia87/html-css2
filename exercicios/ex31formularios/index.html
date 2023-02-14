@@ -100,6 +100,55 @@
                             <input type="reset" value="limpar"></p>
 
                     </fieldset>
+
+                    <h1>selct, datalist e textarea</h1>
+                    <fieldset>
+                        <legend>dados profissionais</legend>
+                        <p>
+                            <label for="iest">estado</label>
+                            <select name="estado" id="iest">
+                                <optgroup label="sudeste">
+                                    <option value="Mg">minas gerais</option>
+                                    <option value="RJ">rio de janeiro</option>
+                                    <option value="Sp">sao paulo</option>
+                                </optgroup>
+                                <optgroup label="nordeste">
+                                    <option value="Pe">pernambuco</option>
+                                    <option value="Bh">bahia</option>
+                                </optgroup>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="iprof">profissao</label>
+                            <input type="text" name="prof" id="iprof" list="lstprof">
+                            <datalist id="lstprof">
+                                <option value="administrador">administrador</option>
+                                <option value="personal">personal</option>
+                                <option value="advogado">advogado</option>
+                            </datalist>
+                        </p>
+                    </fieldset>
+
+                    <h1>output</h1>
+                    <label for="iano">em que ano vc nasceu?</label>
+                    <input type="number" name="ano" id="iano" min="1900" max="2023" oninput="calcidade()">
+
+                    <p>
+                        <label for="iidade">sua idade é:</label>
+                        <output id="iidade">0</output>
+                        
+                    </p>
+                    <p><input type="submit" value="enviar">
+                        <input type="reset" value="limpar"></p>
+
+                        <script>
+                            function calcidade(){
+                                let atual = new Date().getFullYear()
+                                iidade.innerHTML = Number(atual) - Number(iano.value)
+                            }
+                        </script>
+
+
                     
 
 
